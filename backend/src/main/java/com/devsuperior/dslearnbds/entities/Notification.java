@@ -22,7 +22,7 @@ public class Notification implements Serializable {
 	private Long id;
 	private String text;
 	private Instant moment;
-	private Boolean read = false;
+	private boolean read;
 	private String route;
 	
 	@ManyToOne
