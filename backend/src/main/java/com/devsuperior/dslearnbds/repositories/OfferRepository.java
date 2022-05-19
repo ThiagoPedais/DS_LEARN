@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.devsuperior.dslearnbds.entities.Offer;
 
-public interface OfferRepositoy extends JpaRepository<Offer, Long>{
+public interface OfferRepository extends JpaRepository<Offer, Long>{
 
 }
  

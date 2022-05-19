@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.devsuperior.dslearnbds.entities.Lesson;
 
-public interface LessonRepositoy extends JpaRepository<Lesson, Long>{
+public interface LessonRepository extends JpaRepository<Lesson, Long>{
 
 }
  
